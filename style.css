@@ -134,3 +134,39 @@ section img#mountains_front {
     font-size: 1em;
     color: #fff;  
 }
+
+.card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: auto;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.card img {
+    height: 80%;
+    width: 100%;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.card p#cardtitle {
+    margin-top: 4px;
+    font-weight: 500;
+
+}
+
+@media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+}
