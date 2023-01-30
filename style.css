@@ -128,6 +128,8 @@ section img#mountains_front {
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .about p {
@@ -135,38 +137,150 @@ section img#mountains_front {
     color: #fff;  
 }
 
-.card {
-    background-color: dodgerblue;
+.gallery {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+.gallery h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.gallery p {
+    font-size: 1em;
+    color: #fff;  
+}
+
+.pricing {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+
+.pricing h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pricing p {
+    font-size: 1em;
+    color: #fff;  
+}
+
+.pricing-container {
+    text-align: center;
+    z-index: 1001;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    background-color: #fff;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee2;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .pice-card-header {
+    background-color: #111;
     color: white;
-    padding: 1rem;
-    height: auto;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+.contact {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
 }
 
-.cards {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 1rem;
+.contact h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
 }
 
-.card img {
-    height: 80%;
+.contact p {
+    font-size: 1em;
+    color: #fff;  
+}
+
+.contact-card {
+    padding-top: 10px;
+    background-color: #7597de;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
     width: 100%;
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 4px;
+    margin: auto;
+    transition: 0.5s;
 }
 
-.card p#cardtitle {
-    margin-top: 4px;
-    font-weight: 500;
-
+.contact-card:hover {
+    background-color: #04AA6D;
+    transition: 0.5s;
 }
 
-@media (min-width: 600px) {
-    .cards { grid-template-columns: repeat(2, 1fr); }
+.contact-card img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    border-radius: 20px;
 }
 
-@media (min-width: 900px) {
-    .cards { grid-template-columns: repeat(3, 1fr); }
+.contact-card h2 {
+    font-size: 2em;
+}
+
+.contact-card h3 {
+    font-size: 1.5em;
 }
