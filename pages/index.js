@@ -47,7 +47,7 @@ export default function Home() {
               Services I Offer
             </h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>
-              I currently <span className='text-teal-500'>"don't"</span> offer commissions so any requests will be ignored!
+              I currently <span className='text-teal-500'>dont</span> offer commissions so any requests will be ignored!
             </p>
           </div>
           <div className='lg:flex gap-10'>
