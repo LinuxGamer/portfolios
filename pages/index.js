@@ -22,11 +22,13 @@ export default function Home() {
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-2xl text-cyan-500 hover:bg-gradient-to-tr from-cyan-500 to-red-500 px-4 py-2 rounded-lg hover:text-white'>CJ</h1>
             <ul className='flex items-center'>
-              <li><a href="#" className='text-cyan-500 hover:bg-gradient-to-tr from-cyan-500 to-red-500 hover:text-white px-4 py-2 rounded-lg'>About</a></li>
-              <li><a href="#" className='text-cyan-500 hover:bg-gradient-to-tr from-cyan-500 to-red-500 hover:text-white px-4 py-2 rounded-lg'>Services & Pricing</a></li>
+              <li><a href="#about" className='text-cyan-500 hover:bg-gradient-to-tr from-cyan-500 to-red-500 hover:text-white px-4 py-2 rounded-lg'>About</a></li>
+              <li><a href="#prices" className='text-cyan-500 hover:bg-gradient-to-tr from-cyan-500 to-red-500 hover:text-white px-4 py-2 rounded-lg'>Services & Pricing</a></li>
+              <li><a href="#gallery" className='text-cyan-500 hover:bg-gradient-to-tr from-cyan-500 to-red-500 hover:text-white px-4 py-2 rounded-lg'>Previous Works</a></li>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-l ml-2'/></li>
             </ul>
           </nav>
+          <div id="about"></div>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>CJ</h2>
             <h3 className='text-2xl py-2 dark:text-white'>Artist and Developer</h3>
@@ -43,7 +45,7 @@ export default function Home() {
           </div> */}
         </section>
 
-        <section>
+        <section id="prices">
           <div className='text-center'>
             <h3 className='text-3xl py-1'>
               Services I Offer
@@ -82,7 +84,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section id="gallery">
           <div className='text-center'>
             <h3 className='text-3xl py-1'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>My Previous Works</p>
@@ -95,7 +97,7 @@ export default function Home() {
             <div className='basis-1/3 flex-1'><Image src={testimg} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" /></div>
           </div>
         </section>
-        <section>
+        <section id="contact">
           <div className='text-center'>
             <h3 className='text-3xl py-1'>Contact</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>How to get in touch</p>
