@@ -48,8 +48,11 @@ export default function Home() {
             <h3 className='text-3xl py-1'>
               Services I Offer
             </h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300 bg-gradient-to-l from-cyan-500 to-red-500 rounded-full'>
               I currently <span className='text-teal-500'>do not</span> offer commissions <span className='text-red-500'>so any requests will be ignored!</span>
+            </p>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>
+              Prices and options for commissions
             </p>
           </div>
           <div className='lg:flex gap-10'>
@@ -90,6 +93,12 @@ export default function Home() {
             <div className='basis-1/3 flex-1'><Image src={testimg} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" /></div>
             <div className='basis-1/3 flex-1'><Image src={testimg} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" /></div>
             <div className='basis-1/3 flex-1'><Image src={testimg} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" /></div>
+          </div>
+        </section>
+        <section>
+          <div className='text-center'>
+            <h3 className='text-3xl py-1'>Contact</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>How to get in touch</p>
           </div>
         </section>
       </main>
