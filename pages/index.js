@@ -102,6 +102,12 @@ export default function Home() {
             <h3 className='text-3xl py-1'>Contact</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>How to get in touch</p>
           </div>
+          <div className='flex flex-col gap-10 py-2 lg:flow-row lg-flex-wrap'>
+            <div className='text-center bg-gray-500 rounded-full'>
+              <p className='text-black py-1 dark:text-gray-300'><span className='text-cyan-500'><b>Email:</b></span> charl.cj.monke@gmail.com</p>
+              <p className='text-black py-1 dark:text-gray-300'><span className='text-cyan-500'><b>Location:</b></span> London, United Kingdom</p>
+            </div>
+          </div>
         </section>
       </main>
     </div>
