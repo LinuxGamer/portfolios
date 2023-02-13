@@ -65,6 +65,7 @@ export default function Home() {
               <h4 className='py-4 text-red-600'>Software I Use</h4>
               <p className='py-1 text-black dark:text-gray-300'>Krita</p>
               <p className='py-1 text-black dark:text-gray-300'>LibreSprite</p>
+              <button className='py-1 text-black dark:text-gray-300'>Get in touch</button>
             </div>
             <div className='text-center text-black dark:text-white shadow-lg p-10 rounded-xl my-10 bg-gray-300 dark:bg-gray-700'>
               <Image src={testimg} />
