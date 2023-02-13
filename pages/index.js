@@ -34,15 +34,18 @@ export default function Home() {
             <h3 className='text-2xl py-2 dark:text-white'>Artist and Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-300'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tempora itaque natus perferendis, veritatis explicabo cum ab eos earum porro doloremque expedita fuga, et voluptate voluptatum obcaecati aliquid laborum modi?</p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-300'>
-            {/* <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube /> */}
-            {/* <FaFillArtstation /> */}
+          <div className='text-center p-10'>
+            <button className='py-1 text-black dark:text-gray-300 bg-gray-600 rounded-full hover:bg-gray-400 p-4'>Get in touch</button>
           </div>
-          {/* <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-5 overflow-hidden'>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-300'>
+            <AiFillTwitterCircle />
+            <AiFillLinkedin />
+            <AiFillYoutube />
+           {/* <FaFillArtstation /> */}
+          </div>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-5 overflow-hidden'>
             <Image src={cj} />
-          </div> */}
+          </div>
         </section>
 
         <section id="prices">
@@ -65,7 +68,7 @@ export default function Home() {
               <h4 className='py-4 text-red-600'>Software I Use</h4>
               <p className='py-1 text-black dark:text-gray-300'>Krita</p>
               <p className='py-1 text-black dark:text-gray-300'>LibreSprite</p>
-              <button className='py-1 text-black dark:text-gray-300'>Get in touch</button>
+              <button className='py-1 text-black dark:text-gray-300 bg-gray-400 rounded-full hover:bg-gray-600 p-4 my-4'>Get in touch</button>
             </div>
             <div className='text-center text-black dark:text-white shadow-lg p-10 rounded-xl my-10 bg-gray-300 dark:bg-gray-700'>
               <Image src={testimg} />
@@ -74,6 +77,7 @@ export default function Home() {
               <h4 className='py-4 text-red-600'>Software I Use</h4>
               <p className='py-1 text-black dark:text-gray-300'>Krita</p>
               <p className='py-1 text-black dark:text-gray-300'>Sketchbook</p>
+              <button className='py-1 text-black dark:text-gray-300 bg-cyan-300 rounded-full hover:bg-cyan-500 p-4 my-4'>Get in touch</button>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-gray-300 dark:bg-gray-700'>
               <Image src={testimg} />
@@ -82,6 +86,7 @@ export default function Home() {
               <h4 className='py-4 text-red-600'>Software I Use</h4>
               <p className='text-black py-1 dark:text-gray-300'>Krita</p>
               <p className='text-black py-1 dark:text-gray-300'>Sketchbook</p>
+              <button className='py-1 text-black dark:text-gray-300 bg-gray-400 rounded-full hover:bg-gray-600 p-4 my-4'>Get in touch</button>
             </div>
           </div>
         </section>
